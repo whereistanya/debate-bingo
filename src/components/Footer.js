@@ -85,6 +85,28 @@ export default class Social extends Component {
           </LinkedinShareCount>}
 
         </div>
+        <div className="social-media">
+          <a data-action="donate"
+            href="https://www.hillaryclinton.com/donate/?amount=10.00&utm_source=debate-bingo"
+            target="donate">
+           <img src="../images/donate.png" />
+       </a><br />
+          <a data-action="donate"
+            href="https://www.hillaryclinton.com/donate/?amount=10.00&utm_source=debate-bingo"
+            target="donate">
+          Donate
+          </a>
+       </div>
+       <div className="social-media">
+       &nbsp; &nbsp; &nbsp; &nbsp;
+       </div>
+
+       <div className="attribution">
+          Built by <a href="http://devprogress.us">DevProgress</a>.<br />
+          Want to help? It's <a href="https://github.com/devprogress/debate-bingo">open source.</a>
+          <br />
+        </div>
+
       </div>
     );
   }
